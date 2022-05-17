@@ -1,6 +1,6 @@
 
 
-### plagiator
+# plagiator
 
 How to get started with this lib.
 
