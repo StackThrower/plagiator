@@ -1,0 +1,5 @@
+User-agent: *
+Host: https://seotexts.net
+Sitemap: http://seotexts.net/blog/sitemap.xml
+Allow: /
+

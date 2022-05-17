@@ -1,0 +1,14 @@
+
+CREATE TABLE `texts` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `caption` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_date` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `texts`
+    ADD PRIMARY KEY (`ID`);
+
+
+INSERT INTO `texts` (`ID`, `caption`, `content`, `created_date`) VALUES
+(1, 'Тестовый текст', '4e2d20d104728939a9351bdb6d31f8a0 ebd187424d5a4ae81881f6b80d15fece 3ae1fd72e049438b3ee33fd9d4dd3454 b7eecd57531d08daa32258acbc4e3b05 68570ea717be26762d16c7aa4722db7b 0356d77c4e00bf50fb2962d45185e70d f5adf2193c0daafbae32459bbdbefeac b26684b6a53b3912c75f68ec238ab15a 506c6a8377df3a1341a2acb96acf6b3b be21bc0fde1a672117e89dd44ca4854d 8f87854bf50a40e1b998c3fe4310f60b 29b9567e5fb6d2a102b062917ffb0e68 4f7a3504bac712a797479833e64ed8e6 af34dca26dd818ecca5c7c604af2271d 9f886d51b39e86d4ea7510f0987c5b23 3ad3ba0378d270e88f0191aa223753b7 779e9eb0b5020aa70336018af293f2b1 4bbf9ab57a9b84950d97799cc5be01e7 6c939f33dd32b3352790870c8ffd967d 4aee46c4cc0aaa7ccea24d361af71afb 2d4a46b2785592c984bd8400c3c91a22 ccede71d8cc1dc8ef46e81af3e7cdd8a f576cde31395ff8deea2c557ce330c37 0f3f0a8f3c6fe98414c7ecf3aaa6e891 9c62ec82dd71fef04b6283ccb483bad3 e97f3e76f29f592c266400c555352c76 b13bb5c26a1721ee08d102e579edd181 5426caee406eea0bd83be4eb7d7a144f 7a4865e9acce80615751e10daee9e8c8', '2020-10-19 19:25:37');
